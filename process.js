@@ -1,3 +1,4 @@
 function myFunction(){
-window.confirm("sometext");
+  var formElements=document.getElementById("myForm").elements;
+window.confirm("sometext" + formElements);
 }
